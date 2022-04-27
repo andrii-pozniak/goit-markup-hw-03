@@ -33,8 +33,7 @@ font-family: Roboto, sans-serif;
 .header-container {
     display: flex;
     height: 80px;
-    align-items: center;
-    background-color: green;
+    align-items: center;    
 }
 .header-nav {
   display: flex;
@@ -92,8 +91,7 @@ font-family: Roboto, sans-serif;
 
 .link {    
     color: var(--title-color);
-    text-decoration: none;  
-    outline: 1px solid white;
+    text-decoration: none;     
 }
 .link.current {
     color: var(--acsent-color);
@@ -116,11 +114,10 @@ font-family: Roboto, sans-serif;
 
 /* Hero section */
 .hero-section {
+    margin-bottom: 94px;
     background-color: var(--button-color);
     color: var(--white-color);
-    text-align: center;
-   
-       
+    text-align: center;      
 }
 .hero-title {
     margin-top: 0;
@@ -133,12 +130,11 @@ font-family: Roboto, sans-serif;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
-   
-.hide {
+   .hide {
   visibility: hidden;
   margin-top: 0;
-  margin-bottom: 0;
-  background-color: red;
+  margin-bottom: 0;  
+  font-size: 0;
 }
 .button {    
     border-radius: 4px;
@@ -159,7 +155,6 @@ font-family: Roboto, sans-serif;
     background-color:var(--white-color);
     color: var(--button-color);
 }
-
 
 /* section features */
 .features {
@@ -320,7 +315,7 @@ font-family: Roboto, sans-serif;
     justify-content: center;
    
     align-items: center;
-    background-color: #2196F3;
+    
 }
 .page-item + .page-item {
     margin-left: 8px;
