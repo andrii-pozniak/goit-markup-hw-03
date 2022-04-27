@@ -1,0 +1,338 @@
+:root {
+    --primery-text-color:#757575;
+    --title-color: #212121;
+    --acsent-color: #2196F3;
+    --white-color: #FFFF;
+    --background-color: #F5F4FA;
+    --button-color: #2F303A;
+}
+body {
+background-color: var(--white-color);
+color: var(--primery-text-color);
+
+font-family: Roboto, sans-serif;
+
+}
+
+.list {
+    list-style: none; 
+    margin-top: 0; 
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+
+/* header */
+.page-header {
+    background-color:var(--white-color) ;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+ }
+.logo {
+    color: var(--title-color);
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
+    text-decoration: none;
+}
+.logo:hover {
+    color: var(--primery-text-color);
+}
+
+.logo-blue {
+    color: var(--acsent-color);
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;    
+}
+.logo-blue:hover {
+    color: var(--primery-text-color);
+}
+.link{
+    color: var(--title-color);
+    text-decoration: none;    
+}
+.link.current {
+    color: var(--acsent-color);
+}
+ .link:hover,.link:focus {
+    color: var(--acsent-color);
+}
+.adress {
+    color: var(--primery-text-color);
+
+    text-decoration: none;
+}
+
+.adress:hover, .adress:focus {
+    color: var(--acsent-color);
+}
+
+/* Hero section */
+.hero-section {
+    background-color: var(--button-color);
+    color: var(--white-color);
+    text-align: center;
+   
+       
+}
+.hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+   
+.hide {
+  visibility: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.button {    
+    border-radius: 4px;
+    padding: 10px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--acsent-color);
+    color: var(--white-color);   
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;    
+    display: flex;
+    align-items: center;   
+    letter-spacing: 0.06em;
+}
+.button:hover, .button:focus {
+    background-color:var(--white-color);
+    color: var(--button-color);
+}
+
+
+/* section features */
+.features {
+}
+.third-text {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: var(--title-color); 
+        
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em; 
+    text-transform: uppercase;    
+}
+.p-text {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-size: 14px;
+    line-height: 1.71;    
+    letter-spacing: 0.03em;
+}
+/* Work */
+.work {
+
+}
+.second-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    color: var(--title-color);    
+        
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;    
+}
+
+/* Team */
+.team {
+    background-color: var(--background-color);
+}
+.team-photo {
+    background-color: var(--white-color);
+}
+.team-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    color: var(--title-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;     
+    letter-spacing: 0.03em;
+}
+.team-text {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+/* Hooter */
+.hooter {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: var(--button-color);    
+}
+.logo-hooter {
+    margin-bottom: 20px;
+    color: var(--white-color);
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
+    text-decoration: none;    
+}
+.logo-hooter:hover {
+    color: var(--primery-text-color);    
+}
+.hooter-a {    
+    margin-bottom: 9px;
+    color: rgba(255, 255, 255, 0.6);
+    
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+    text-decoration: none;    
+}
+.hooter-a:hover, .hooter-a:focus {
+    color: var(--acsent-color);   
+}
+.hooter-text {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 9px;
+
+    font-style: normal;  
+    font-size: 14px;
+    line-height: 1.71;   
+    letter-spacing: 0.03em;
+    
+    color: var(--white-color);
+}
+/* Portfolio */
+
+.page {
+    font-family: 'Roboto';
+    font-size: 16px;
+} 
+.all {
+    border: 0;
+    border-radius: 4px;
+    padding: 6px 22px;
+    background-color: var(--acsent-color);
+    color: var(--white-color);
+
+    font-weight: 500;    
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+ .all:hover,  .all:focus {
+   background-color: var(--background-color);
+   color: var(--title-color);
+
+ font-weight: 500;
+ line-height: 1.62;
+ text-align: center;
+ letter-spacing: 0.03em;
+}
+.button-port {
+    border: 0;
+ border-radius: 4px;
+ padding: 6px 22px;
+  background-color: var(--background-color);
+  color: var(--title-color);
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16px;
+ letter-spacing: 0.02em;
+}
+.title {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;    
+    letter-spacing: 0.06em;
+}
+.button-port:hover, .button-port:focus {
+    background-color: var(--acsent-color);
+    color: var(--white-color);
+}
+.photo {
+    color: var(--primery-text-color);
+    
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;    
+}
+.title {
+    margin-bottom: 9px;
+    color: var(--title-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;    
+    letter-spacing: 0.06em;
+}
+.photo-text {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;   
+    letter-spacing: 0.03em;
+}
+
+
+/* вторичный цвет текста #212121;*/
+/*основной цвет текста #757575;*/
+/*белый #FFFFFF*/
+/* эфект #2196F3;*/
+/* цвет адреса в ховере rgba(255, 255, 255, 0.6) */
+/* color background hader #FFFF*/
+/* color background hero #2F303A */
+/* color background section #E5E5E5 */
+/* color background section team #F5F4FA */
+/*color background footer #2F303A */
