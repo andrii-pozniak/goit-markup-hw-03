@@ -32,6 +32,7 @@ font-family: Roboto, sans-serif;
 /* header */
 .header-container {
     display: flex;
+    height: 80px;
     align-items: center;
 }
 .header-nav {
@@ -309,6 +310,15 @@ font-family: Roboto, sans-serif;
     font-family: 'Roboto';
     font-size: 16px;
 } 
+.page-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+    align-items: center;
+}
+.page-item + .page-item {
+    margin-left: 8px;
+}
 .all {
     border: 0;
     border-radius: 4px;
@@ -359,11 +369,22 @@ font-family: Roboto, sans-serif;
     color: var(--white-color);
 }
 .photo {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
     color: var(--primery-text-color);
+    flex-wrap: wrap;
     
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;    
+}
+.photo-item {
+    margin-right: 30px;    
+}
+.photo-item:nth-child(n+3) {
+    margin-right: 0;
 }
 .title {
     margin-bottom: 9px;
