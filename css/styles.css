@@ -246,7 +246,11 @@ font-family: Roboto, sans-serif;
     text-align: center;
     letter-spacing: 0.03em;    
 }
-
+.work-img {
+    display: block;
+    max-width: 370px;
+    height: auto;    
+}
 /* Team */
 
 .team {
