@@ -96,15 +96,15 @@ font-family: Roboto, sans-serif;
 .logo-blue:hover {
     color: var(--primery-text-color);
 }
-.item {
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
+
 .item + .item {
     margin-left: 50px;
 }
 
 .link {    
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--title-color);
     text-decoration: none;     
 }
@@ -139,16 +139,27 @@ font-family: Roboto, sans-serif;
     color: var(--white-color);
     text-align: center;      
 }
-.hero-title {
-    margin-top: 0;
+.hero-container {
+    display: block;
+    
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-title {      
+    margin-top: 0;  
     margin-bottom: 30px;
+    
 
+    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    
 
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    text-align: center;
 }
    .hide {
   visibility: hidden;
@@ -156,8 +167,8 @@ font-family: Roboto, sans-serif;
   margin-bottom: 0;  
   font-size: 0;
 }
-.button {    
-    border-radius: 4px;
+.button {  
+    
     padding: 10px 32px;
     margin-left: auto;
     margin-right: auto;
@@ -167,9 +178,10 @@ font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;    
-    display: flex;
+    
     align-items: center;   
     letter-spacing: 0.06em;
+    border: 0;
     border-radius: 4px;
 }
 .button:hover, .button:focus {
